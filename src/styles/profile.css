@@ -1,0 +1,98 @@
+.profile-screen {
+  position: relative;
+}
+
+.profile-header {
+  height: 56px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  border-bottom: 1px solid #efefef;
+}
+
+.profile-header h2 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1d2226;
+}
+
+.profile-card {
+  background: #f3f4f6;
+  padding: 24px 16px 18px;
+}
+
+.profile-top {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.profile-image-wrapper {
+  position: relative;
+}
+
+.profile-image {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.camera-badge {
+  position: absolute;
+  bottom: 0;
+  right: -2px;
+
+  width: 24px;
+  height: 24px;
+
+  border-radius: 50%;
+  background: #6c25ff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.profile-info {
+  margin-top: 4px;
+}
+
+.profile-info h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1d2226;
+  margin-bottom: 4px;
+}
+
+.profile-info p {
+  font-size: 14px;
+  color: #1d2226;
+}
+
+.profile-description {
+  margin-top: 18px;
+  font-size: 13px;
+  line-height: 22px;
+  color: #4a4a4a;
+  font-weight: 500;
+}
+
+.dashed-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-top: 2px dashed #e3e3e3;
+}
+
+.top-line {
+  top: 240px;
+}
+
+.bottom-line {
+  bottom: 32px;
+}
